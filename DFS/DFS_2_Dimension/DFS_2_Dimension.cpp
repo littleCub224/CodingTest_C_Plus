@@ -11,8 +11,8 @@ bool visited[104][104];
 void DFS(int y, int x)
 {
 	visited[y][x] = 1;
-	cout << y << " : "<< x << "\n";
-	
+	cout << y << " : " << x << "\n";
+
 	for (int i = 0; i < 4; i++)
 	{
 		ny = y + dy[i];
@@ -53,11 +53,11 @@ int main() {
 			if (a[col][row] == 1 && !visited[col][row])
 			{
 				cout << col << " : " << row << " dfs 시작\n";
-	
+
 				DFS(col, row);
 				ret++;
 			}
-			
+
 		}
 	}
 

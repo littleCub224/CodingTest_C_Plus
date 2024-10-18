@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{91ea6299-763f-4b99-ab53-44956ec6e1d0}</ProjectGuid>
+    <ProjectGuid>{dbf42759-bc60-4653-8480-51f20bfb37ac}</ProjectGuid>
     <RootNamespace>DFS1Dimension</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
